@@ -1,0 +1,26 @@
+{
+  "name": "generator-vue-express-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "vue",
+    "express",
+    "webpack",
+    "yeoman",
+    "generator",
+    "yeoman-generator"
+  ],
+  "author": "szy",
+  "license": "ISC",
+  "dependencies": {
+    "generator": "^1.0.1",
+    "yeoman-generator": "^2.0.1"
+  }
+}
