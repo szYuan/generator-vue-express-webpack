@@ -118,6 +118,12 @@ module.exports = class extends Generator {
           project_author: this.props.projectAuthor
         }
     );
+    this.fs.copyTpl(
+        this.templatePath('./index.html'),
+        this.destinationPath('./index.html'),{
+          project_name: this.props.projectName
+        }
+    );
 
   }
 
