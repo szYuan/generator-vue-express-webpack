@@ -1,7 +1,7 @@
 {
   "name": "generator-vue-express-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Yeoman generator to generate a fullstack vue project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
