@@ -29,8 +29,8 @@ module.exports = class extends Generator {
       {
         type: 'input',
         name: 'projectAuthor',
-        message: 'Author (lix):',
-        default: 'lix'
+        message: 'Author (szy):',
+        default: 'szy'
       },
       {
         type: 'list',
@@ -62,34 +62,6 @@ module.exports = class extends Generator {
 
   writing () {
     console.log(chalk.bgGreen('创建文件...'));
-    // var readmeTmpl = _.template(this.fs.read(this.templatePath('./README.md')));
-    // this.fs.write(this.destinationPath('README.md'), readmeTmpl({
-    //   project_name: this.props.projectName,
-    //   project_license: this.props.projectLicense,
-    //   project_author: this.props.projectAuthor
-    // }));
-
-    // var readmeTmpl2 = _.template(this.fs.read(this.templatePath('./package.json')));
-    // this.fs.write(this.destinationPath('package.json'), readmeTmpl2({
-    //   project_name: this.props.projectName,
-    //   project_desc: this.props.projectDesc,
-    //   project_author: this.props.projectAuthor
-    // }));
-    // var readmeTmpl2 = _.template(this.fs.read());
-    // this.fs.write(this.destinationPath('package.json'), readmeTmpl2({
-    //   project_name: this.props.projectName,
-    //   project_desc: this.props.projectDesc,
-    //   project_author: this.props.projectAuthor
-    // }));
-    // console.log(this.props);
-    // this.fs.copyTpl(
-    //     this.templatePath('./package.json'),
-    //     this.destinationPath('./package.json'),{
-    //       project_name: this.props.projectName,
-    //       project_desc: this.props.projectDesc,
-    //       project_author: this.props.projectAuthor
-    //     }
-    // );
 
     // 复制目录所有文件
     this.fs.copy(
