@@ -101,6 +101,6 @@ module.exports = class extends Generator {
 
   install () {
     console.log(chalk.bgGreen('安装依赖...'));
-    // this.installDependencies();
+    this.installDependencies();
   }
 }
