@@ -1,0 +1,25 @@
+{
+    "name": "<%= project_name %>",
+    "version": "1.0.0",
+    "description": "<%- project_desc%>",
+    "author": "<%= project_author %>",
+    "private": true,
+    "scripts": {
+      "dev": "node build/dev-server.js",
+      "build": "node build/build.js",
+      "unit": "karma start test/unit/karma.conf.js --single-run",
+      "e2e": "node test/e2e/runner.js",
+      "test": "npm run unit && npm run e2e",
+      "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
+    },
+    "dependencies": {
+        
+    },
+    "devDependencies": {
+
+    },
+    "engines": {
+      "node": ">= 4.0.0",
+      "npm": ">= 3.0.0"
+    }
+  }
